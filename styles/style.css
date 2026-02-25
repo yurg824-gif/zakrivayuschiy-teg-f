@@ -105,9 +105,8 @@
   text-shadow: 0 0 1px var(--text-shadow-color, #ffffff);
   font-size: 14px;
   line-height: normal;
-  text-transform: uppercase;
   inset-inline-end: 20px;
-  inset-block-start: 25px;;
+  inset-block-start: 25px;
   mix-blend-mode: hard-light;
 }
 
@@ -215,8 +214,7 @@
 }
 
 .button__text,
-.button__icon
- {
+.button__icon {
   color: var(--button-text-color, #ffffff);
   mix-blend-mode: difference;
 }
