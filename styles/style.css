@@ -100,7 +100,7 @@
   z-index: 1;
   opacity: 0.5;
   color: var(--text-color, #000000);
-  font-family: var(--accent-font-family, "PressStart2P", sans-serif);
+  font-family: var(--accent-font-family, "PressStart2P", fantasy);
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--text-shadow-color, #ffffff);
   font-size: 14px;
@@ -164,13 +164,21 @@
   border-color: var(--text-color, #000000);
 }
 
+.card__like-button { /* По замечаниям ревью 1 */
+  display: inline-block;
+  text-align: center;
+  /* justify-content: center; */
+  inline-size: 130px;
+  min-block-size: 41px;
+}
+
 /* button */
 .button {
   position: relative;
   z-index: 1;
   border: 2px solid var(--text-color, #000000);
-  padding: 10px 36px;
-  font-family: var(--accent-font-family, "PressStart2P", sans-serif);
+  /* padding: 10px 36px; */
+  font-family: var(--accent-font-family, "PressStart2P", fantasy);
   font-size: 14px;
   text-transform: inherit;
   background: var(--background-color, #ffffff);
@@ -210,7 +218,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 15px 20px;
+  padding: 15px 18px;
 }
 
 .button__text,
@@ -234,7 +242,7 @@
   border: 2px solid var(--text-color, #000000);
   padding: 25px 30px;
   color: var(--text-color, #000000);
-  font-family: var(--accent-font-family, "PressStart2P", sans-serif);
+  font-family: var(--accent-font-family, "PressStart2P", fantasy);
   line-height: 1.5;
   text-transform: uppercase;
   background: var(--background-color, #ffffff);
@@ -267,6 +275,7 @@
 
 .modal__button {
   inline-size: 100%;
+  padding: 10px;
 }
 
 /* filters */

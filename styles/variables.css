@@ -11,9 +11,9 @@
   --main-font-family: "Inter", sans-serif;
   --main-font-weight: 410;
   --header-font-weight: 715;
-  --accent-font-family: "PressStart2P", sans-serif;
+  --accent-font-family: "PressStart2P", fantasy;
 
-  --content-width: clamp(28.125rem, calc(26.3158vw + 20.7237rem), 43.75rem);
+  --content-width: clamp(23.4375rem, calc(31.7073vw + 16.0061rem), 43.75rem);
   --heart-contur-color:  var(--color-black, #000000);
   --heart-sparks-color:  var(--color-red, #ff0000);
   --heart-main-body-color:  var(--color-red, #ff0000);
